@@ -3,6 +3,7 @@ import { createNewProduct } from '../../db/product_db_function';
 
 
 
+
 export async function uploadProductImage(req: express.Request, res: express.Response) {
     const image = req.body.url;
     
